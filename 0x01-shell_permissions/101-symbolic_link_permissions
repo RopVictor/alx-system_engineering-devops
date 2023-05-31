@@ -1,3 +1,2 @@
 #!/bin/bash
-TARGET=$(readlink -f _hello)
-chown vincent:staff "$TARGET"
+chown -h vincent:staff _hello
